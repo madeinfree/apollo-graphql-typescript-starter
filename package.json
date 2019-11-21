@@ -1,0 +1,21 @@
+{
+  "name": "typescript-apollo-graphql-starter",
+  "version": "1.0.0",
+  "description": "Run apollo graphql server simple",
+  "scripts": {
+    "start": "node ./build/src",
+    "build": "tsc",
+    "dev": "nodemon ./build/src"
+  },
+  "author": {
+    "name": "Whien_Liou",
+    "email": "sal95610@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.7",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8"
+  }
+}
